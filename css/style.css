@@ -20,8 +20,9 @@ p{
     margin-left: auto;
     margin-right: 0 !important;
     font-family: "Lato", sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 28px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 body{

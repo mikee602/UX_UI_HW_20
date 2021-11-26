@@ -1,0 +1,370 @@
+p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color:#46465d;
+
+}
+
+.customNav{
+    background-color: #fafafa;
+    padding: 20px 10px;
+
+}
+
+.customNav a{
+    color: #35302d !important;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+    font-family: "Lato", sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+.heroBackground {
+    background-image: url(../images/COHhero2.png);
+    background-size: 75%;
+    background-color: #46465d;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    height: cal(100vh - 25px);
+    }
+
+.heroBackground h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 65px;
+    align-items: center;
+    font-style: bold;
+    color: #fafafa;
+   }
+
+.heroBackground p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    align-items: center;
+    font-style: bold;
+    color: #fafafa;
+}
+
+.halstedSection{
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #46465d;
+    padding-bottom: 25px;
+   }
+
+.halstedSection img{
+    width: 50%;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.halstedSection h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.halstedSection p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.problemSection {
+    height: 500px;
+    background-color: #46465d;
+    justify-content: center;
+    color: #fafafa;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+   }
+
+
+
+.problemSection h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fafafa;  
+}
+
+.problemSection p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    Color: #fafafa;
+}
+
+.problemSection ul{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.problemSection .row{
+    padding: 25px 0px 25px 0px;
+}
+
+.designProcess{
+    background-image: url(../images/designprocess.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    background-color:  #46465d;
+    padding-top: 25px;
+
+}
+
+.designProcess .heading{
+    color: #fafafa;
+}
+
+
+.Hdiscovery{
+    background-color: #D86d63;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+    font: "Montserrat", sans-serif;
+    font-size: 65px;
+
+}
+
+
+.heading{
+    color: #46465d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.sectionHeading{
+    background-color: #D86D63;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+}
+
+.subHeading{
+    margin-top: 50px;
+}
+
+.cohsite img, .contentSection img{
+    width: 75%;
+}
+
+.contentSection ol{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    color:#46465d;
+    padding-right: 15px;
+}
+
+.Hdefinition{
+    background-color: #EC9841;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+    font: "Montserrat", sans-serif;
+    font-size: 65px;
+}
+
+.analysisContainer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    "affinity affinity" 
+    "chart doughnut"
+    ;
+}
+
+.analysisContainer img, .userPersona img{
+    width: 100%;
+}
+
+.affinity{
+    grid-area: affinity;
+}
+
+.chart{
+    grid-area: chart;
+}
+
+.doughnut{
+    grid-area: doughnut;
+}
+
+.Hideation{
+    background-color: #E9D467;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+    font: "Montserrat", sans-serif;
+    font-size: 65px;
+
+}
+
+.ideationContainer img{
+    width:100%;
+    padding: 60px;
+}
+
+.features{
+    background-color:#46465d;
+    overflow-x:hidden;
+  }
+
+.features p{
+    color: #fafafa;
+    padding: 30px;
+}
+
+.features .heading{
+    color: #fafafa;
+}
+
+.features img{
+    width: 75%;
+}
+
+.siteMap img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.storyboard{
+    background-color:#46465d;
+    overflow-x:hidden;
+  }
+
+.storyboard p{
+    color: #fafafa;
+    padding: 200px 75px 200px 75px;
+}
+
+.storyboard img{
+    max-width: 100%;
+    height: auto;
+}
+
+.Hprototype{
+    background-color: #89B692;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+    font: "Montserrat", sans-serif;
+    font-size: 65px;
+    margin-top: 50px;
+}
+
+.lofi img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.styletile img{
+    max-width: 100%;
+    height: auto;
+}
+
+.hifi img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.responsive{
+    background-color:#46465d;
+    overflow-x:hidden;
+  }
+
+.responsive p{
+    color: #fafafa;
+    padding: 30px
+    
+}
+
+.responsive .heading{
+    color: #fafafa;
+    padding: 75px 30px 0px 30px;
+}
+
+
+.responsive img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.Hdelivery{
+    background-color: #6E758B;
+    text-align: center;
+    color: white;
+    padding: 50px 0px;
+    font-weight: bold;
+    font: "Montserrat", sans-serif;
+    font-size: 65px;
+    margin-top: 50px;
+}
+
+.final{
+    margin-left: 50px;
+}
+
+.final img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+
+
+.final .mobile img{
+    max-width: 100%;
+    height: 400px;
+}
+
+.nextsteps ol{
+    color: #46465d;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nextsteps li{
+    padding: 30px;
+}
+
+.nextsteps img{
+    max-width: 100%;
+    height: auto;
+    padding-right: 100px;
+}
